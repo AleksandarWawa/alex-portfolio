@@ -29,7 +29,7 @@ ol {
 }
 
 li {
-  display: flex;
+  /* display: flex; */
   align-items: center;
   padding: 15px;
 }
@@ -161,7 +161,7 @@ sup {
 
 .aboutId {
   width: 35%;
-  text-align: center;
+  text-align: left;
   font-size: 50px;
   font-family: var(--sora-font);
   font-weight: 400;
@@ -170,13 +170,14 @@ sup {
 }
 
 .aboutText {
-  width: 55%;
+  width: 60%;
   font-size: var(--tekstVelicina);
   font-family: var(--sora-font);
   color: var(--tekstBoja);
   line-height: 1.9;
 }
 
+/******************** LINIJA **********************************/
 .linija{
   display: flex;
   margin: 40px 0;
@@ -195,6 +196,7 @@ sup {
 
 }
 
+/************************* EXPERIENCE *****************************/
 .tag {
   font-size: 18px;
   margin-bottom: 10px;
@@ -207,3 +209,106 @@ sup {
   font-size: 45px;
   font-weight: 700;
 }
+
+/************************ Featured Projects na glavnoj stranici ************************/
+
+.project {
+  display: flex;
+  justify-content: space-between;
+  background-color: #c2bcbc;
+}
+
+.projectA {
+  width: 30%;
+  background-color: var(--bijela);
+  align-items: center;
+  text-align: center;
+  margin: 5px;
+  line-height: normal;
+
+}
+.projectA img{
+width: 100%;
+}
+
+.projectB{
+  width: 30%;
+  background-color: brown;
+}
+
+.projectC{
+  width: 30%;
+  background-color: bisque;
+}
+
+
+
+
+
+
+
+
+
+
+
+/************************ Featured Projects stranica odvojena ************************/
+
+.aboutText .sajt {
+width: 100%;
+}
+
+.aboutText .sajtNaslov {
+  width: 100%;
+  font-size: 32px;
+  color: var(--tekstBoja);
+  margin: 40px 0;
+  text-align: left;
+  justify-content: left;
+  align-items: flex-start;
+}
+
+.sajtUl {
+  display: block;
+  line-height: 2px;
+  font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************************* Skills & Tools **************************/
+.liste {
+  display: flex;
+}
+
+.aboutText .skillsListA {
+  width: 55%;
+}
+.aboutText .skillsListB {
+  width: 45%;
+}
+
+.aboutText .skillsListA .skillsUl {
+  display: inline-block;
+  list-style-type: square;
+  line-height: normal;
+}
+
+.aboutText .skillsListB .skillsUl {
+  display: inline-block;
+  list-style-type: square;
+  line-height: normal;
+}
+
+
+
