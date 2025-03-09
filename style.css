@@ -215,30 +215,80 @@ sup {
 .project {
   display: flex;
   justify-content: space-between;
-  background-color: #c2bcbc;
+  /* background-color: #c2bcbc; */
 }
 
 .projectA {
-  width: 30%;
+  width: 32%;
   background-color: var(--bijela);
   align-items: center;
   text-align: center;
   margin: 5px;
   line-height: normal;
+  border: 2px solid grey;
 
 }
 .projectA img{
 width: 100%;
+height: 150px;
 }
 
 .projectB{
-  width: 30%;
-  background-color: brown;
+  width: 32%;
+  background-color: var(--bijela);
+  align-items: center;
+  text-align: center;
+  margin: 5px;
+  line-height: normal;
+  border: 2px solid grey;
+}
+
+.projectB img{
+  width: 100%;
+  height: 150px;
 }
 
 .projectC{
-  width: 30%;
-  background-color: bisque;
+  width: 32%;
+  background-color: var(--bijela);
+  align-items: center;
+  text-align: center;
+  margin: 5px;
+  line-height: normal;
+  border: 2px solid grey;
+}
+
+.projectC img {
+  width: 100%;
+  height: 150px;
+}
+
+.projectTitle {
+  height: 70px;
+}
+
+.projectText {
+  width: 95%;
+  margin: auto;
+}
+
+.projectLink {
+  background-color: #606060;
+  width: 50%;
+  margin-left: 500px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+
+} 
+
+.project h4{
+  margin-top: 30px;
+}
+
+.project p {
+  font-family: var(--sora-font);
+  font-size: 15px;
 }
 
 
