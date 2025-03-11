@@ -20,7 +20,7 @@ li {
 }
 
 .container {
-  max-width: 1140px;
+  max-width: 1440px;
 }
 
 sup {
@@ -94,7 +94,6 @@ sup {
   width: -moz-fit-content;
   width: fit-content;
   width: 450px;
-  height: 10vh;
 }
 
 .opis .btn {
@@ -352,7 +351,7 @@ sup {
 @media (min-width: 250px) and (max-width: 600px) {
   .mainHeader {
     background-position: 60% 50%;
-    height: 50vh;
+    height: 80vh;
   }
   .container {
     display: flex;
