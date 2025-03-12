@@ -418,6 +418,9 @@
   font-size: 24px;
 }
 
+.aboutId p {
+  line-height: normal;
+}
 .aboutText {
   font-size: 16px;
 }
@@ -428,8 +431,34 @@
   flex-direction: row;
 }
 
+/*************** Expiriance mob *************/
+.aboutText h2{
+  font-size: 28px;
+}
 
+.aboutText .tag {
+  line-height: normal;
+}
 
+/****************** FEATURED PROJECTS ***********/
+
+.project {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+}
+
+.projectA  {
+  width: 90%;
+}
+
+.projectB  {
+  width: 90%;
+}
+.projectC  {
+  width: 90%;
+}
 
 }
 
@@ -472,8 +501,42 @@
   font-size: 26px;
 }
 
+.aboutId p {
+  line-height: normal;
+}
+
 .aboutText {
   font-size: 18px;
+}
+
+/*************** Expiriance mob *************/
+.aboutText h2{
+  font-size: 28px;
+}
+
+.aboutText .tag {
+  font-size: 14px;
+  line-height: normal;
+}
+
+/****************** FEATURED PROJECTS ***********/
+
+.project {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+}
+
+.projectA  {
+  width: 90%;
+}
+
+.projectB  {
+  width: 90%;
+}
+.projectC  {
+  width: 90%;
 }
 
 
