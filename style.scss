@@ -407,9 +407,15 @@
   }
 
   /************* ABOUT ***************/
+  .about {
+    flex-direction: column;
+    align-items: center;
+    // background-color: black;
+  }
+  
   .aboutId {
+    width: 90%;
     font-size: 24px;
-    // width: 60%;
     text-align: center;
   }
 
@@ -418,7 +424,8 @@
   }
 
   .aboutText {
-    // width: 85%;
+    align-items: center;
+    width: 90%;
     font-size: 16px;
   }
 
@@ -439,24 +446,33 @@
 
   /****************** FEATURED PROJECTS ***********/
 
-  .project {
+  .projectList {
+    background-color: red;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 85%;
   }
 
   .projectA {
-    width: 90%;
+    width: 100%;
   }
 
   .projectB {
-    width: 90%;
+    width: 100%;
   }
 
   .projectC {
-    width: 90%;
+    width: 100%;
   }
+
+
+  /******************** JEZICI ****************/
+
+  .english {
+    width: 100%;
+  }
+
 
 }
 
@@ -497,13 +513,15 @@
 
   /************* ABOUT ***************/
   .about {
-    background-color: black;
+    flex-direction: column;
+    align-items: center;
+    // background-color: black;
   }
 
   .aboutId {
-    background-color: yellow;
     font-size: 26px;
-    width: 25%;
+    text-align: center;
+    width: 70%;
   }
 
   .aboutId p {
@@ -511,8 +529,7 @@
   }
 
   .aboutText {
-    background-color: red;
-    width: 40%;
+    width: 90%;
     font-size: 18px;
   }
 
@@ -547,6 +564,12 @@
     width: 90%;
   }
 
+
+   /******************** JEZICI ****************/
+
+   .english {
+    width: 100%;
+  }
 
 
 
