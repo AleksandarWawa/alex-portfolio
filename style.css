@@ -398,7 +398,10 @@ sup {
     flex-wrap: wrap;
     width: -moz-fit-content;
     width: fit-content;
-    width: 265px;
+    width: 70%;
+  }
+  .opis .btn {
+    font-size: 12px;
   }
   /************* ABOUT ***************/
   .about {
@@ -431,7 +434,6 @@ sup {
   }
   /****************** FEATURED PROJECTS ***********/
   .projectList {
-    background-color: red;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -442,6 +444,7 @@ sup {
   }
   .projectB {
     width: 100%;
+    margin: 15px 0;
   }
   .projectC {
     width: 100%;
@@ -465,8 +468,14 @@ sup {
     justify-content: flex-start;
     width: -moz-fit-content;
     width: fit-content;
-    width: 450px;
-    height: 10vh;
+    width: 70%;
+    height: 15vh;
+  }
+  .opis .btn {
+    font-size: 16px;
+  }
+  .ime h1 {
+    font-size: 46px;
   }
   /************* ABOUT ***************/
   .about {
@@ -511,6 +520,7 @@ sup {
   }
   .projectB {
     width: 100%;
+    margin: 15px 0;
   }
   .projectC {
     width: 100%;
