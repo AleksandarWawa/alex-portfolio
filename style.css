@@ -204,6 +204,7 @@ sup {
 /************************ Featured Projects na glavnoj stranici ************************/
 .project {
   text-align: center;
+  justify-content: space-between;
 }
 
 .projectList {
@@ -471,6 +472,7 @@ sup {
   .about {
     flex-direction: column;
     align-items: center;
+    justify-content: center;
   }
   .aboutId {
     font-size: 26px;
@@ -494,19 +496,24 @@ sup {
   }
   /****************** FEATURED PROJECTS ***********/
   .project {
+    width: 100%;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 85%;
+    text-align: center;
+  }
+  .projectList {
+    width: 70%;
   }
   .projectA {
-    width: 90%;
+    width: 100%;
   }
   .projectB {
-    width: 90%;
+    width: 100%;
   }
   .projectC {
-    width: 90%;
+    width: 100%;
   }
   /******************** JEZICI ****************/
   .english {
