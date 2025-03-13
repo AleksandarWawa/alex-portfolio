@@ -47,23 +47,23 @@
 }
 
 .ime h1 {
-  font-size: 40px;
+  font-size: 60px;
   color: black;
   font-weight: 600;
 }
 
 .naslov p {
-  font-size: 26px;
+  font-size: 30px;
   font-weight: 500;
   color: black;
 }
 
 .opis {
   display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    width: fit-content;
-    width: 450px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: fit-content;
+  width: 450px;
 
 
 }
@@ -77,7 +77,7 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 18px;
   cursor: pointer;
   transition: all 0.5s ease-in-out;
   overflow: hidden;
@@ -92,6 +92,7 @@
 }
 
 .opis2 {
+  margin-top: 30px;
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -105,6 +106,7 @@
   font-family: $sora-font;
   font-size: 16px;
   font-weight: 600;
+  margin-bottom: 5px;
 }
 
 .contact {
@@ -119,20 +121,26 @@
 .about {
   display: flex;
   justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+  gap: 50px;
+
 }
 
 .aboutId {
-  width: 35%;
+  width: 25%;
   text-align: left;
-  font-size: 36px;
+  font-size: 38px;
   font-family: $sora-font;
   font-weight: 400;
   line-height: 3rem;
+  padding-right: 5px;
 
 }
 
 .aboutText {
-  width: 60%;
+  width: 70%;
   font-size: $tekstVelicina;
   font-family: $sora-font;
   color: $tekstBoja;
@@ -148,20 +156,20 @@
 .jedan {
   background-color: red;
   height: 2px;
-  width: 33%;
+  width: 35%;
 }
 
 .dva {
   background-color: #d8d6d6;
   height: 2px;
-  width: 67%;
+  width: 65%;
 
 }
 
 /************************* EXPERIENCE *****************************/
 .tag {
   font-size: 18px;
-  margin-bottom: 10px;
+  margin: 10px 0;
   line-height: 10px;
 }
 
@@ -175,15 +183,20 @@
 /************************ Featured Projects na glavnoj stranici ************************/
 
 .project {
+  text-align: center;
+}
+
+
+.projectList {
   display: flex;
   flex-wrap: wrap;
+  
   justify-content: space-between;
-  justify-content: center;
-  gap: 10px;
 }
 
 .projectA {
   width: 31%;
+  background-color: $bijela;
   align-items: center;
   text-align: center;
   line-height: normal;
@@ -243,17 +256,6 @@
   font-size: 15px;
 }
 
-.projectLink {
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-
-
-
-
-
 /************************ Featured Projects stranica odvojena ************************/
 
 .aboutText .sajt {
@@ -275,15 +277,6 @@
   line-height: 2px;
   font-weight: 600;
 }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -414,51 +407,56 @@
   }
 
   /************* ABOUT ***************/
-.aboutId {
-  font-size: 24px;
-}
+  .aboutId {
+    font-size: 24px;
+    // width: 60%;
+    text-align: center;
+  }
 
-.aboutId p {
-  line-height: normal;
-}
-.aboutText {
-  font-size: 16px;
-}
+  .aboutId p {
+    line-height: normal;
+  }
 
-/******************** LINIJA *****************/
+  .aboutText {
+    // width: 85%;
+    font-size: 16px;
+  }
 
-.linija {
-  flex-direction: row;
-}
+  /******************** LINIJA *****************/
 
-/*************** Expiriance mob *************/
-.aboutText h2{
-  font-size: 28px;
-}
+  .linija {
+    flex-direction: row;
+  }
 
-.aboutText .tag {
-  line-height: normal;
-}
+  /*************** Expiriance mob *************/
+  .aboutText h2 {
+    font-size: 28px;
+  }
 
-/****************** FEATURED PROJECTS ***********/
+  .aboutText .tag {
+    line-height: normal;
+  }
 
-.project {
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 70%;
-}
+  /****************** FEATURED PROJECTS ***********/
 
-.projectA  {
-  width: 90%;
-}
+  .project {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+  }
 
-.projectB  {
-  width: 90%;
-}
-.projectC  {
-  width: 90%;
-}
+  .projectA {
+    width: 90%;
+  }
+
+  .projectB {
+    width: 90%;
+  }
+
+  .projectC {
+    width: 90%;
+  }
 
 }
 
@@ -475,10 +473,10 @@
 
 
 
-@media (min-width: 601px) and (max-width: 900px) {
-  .container {
-    width: 95%;
-  }
+@media (min-width: 601px) and (max-width: 991px) {
+  // .container {
+  //   // width: 95%;
+  // }
 
   .navBar p {
     font-size: 20px;
@@ -496,48 +494,58 @@
     width: 450px;
     height: 10vh;
   }
+
   /************* ABOUT ***************/
-.aboutId {
-  font-size: 26px;
-}
+  .about {
+    background-color: black;
+  }
 
-.aboutId p {
-  line-height: normal;
-}
+  .aboutId {
+    background-color: yellow;
+    font-size: 26px;
+    width: 25%;
+  }
 
-.aboutText {
-  font-size: 18px;
-}
+  .aboutId p {
+    line-height: normal;
+  }
 
-/*************** Expiriance mob *************/
-.aboutText h2{
-  font-size: 28px;
-}
+  .aboutText {
+    background-color: red;
+    width: 40%;
+    font-size: 18px;
+  }
 
-.aboutText .tag {
-  font-size: 14px;
-  line-height: normal;
-}
+  /*************** Expiriance mob *************/
+  .aboutText h2 {
+    font-size: 28px;
+  }
 
-/****************** FEATURED PROJECTS ***********/
+  .aboutText .tag {
+    font-size: 14px;
+    line-height: normal;
+  }
 
-.project {
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 70%;
-}
+  /****************** FEATURED PROJECTS ***********/
 
-.projectA  {
-  width: 90%;
-}
+  .project {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+  }
 
-.projectB  {
-  width: 90%;
-}
-.projectC  {
-  width: 90%;
-}
+  .projectA {
+    width: 90%;
+  }
+
+  .projectB {
+    width: 90%;
+  }
+
+  .projectC {
+    width: 90%;
+  }
 
 
 

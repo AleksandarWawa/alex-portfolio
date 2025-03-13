@@ -21,6 +21,7 @@ li {
 
 .container {
   max-width: 1440px;
+  width: 80%;
 }
 
 sup {
@@ -76,13 +77,13 @@ sup {
 }
 
 .ime h1 {
-  font-size: 40px;
+  font-size: 60px;
   color: black;
   font-weight: 600;
 }
 
 .naslov p {
-  font-size: 26px;
+  font-size: 30px;
   font-weight: 500;
   color: black;
 }
@@ -105,7 +106,7 @@ sup {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 18px;
   cursor: pointer;
   transition: all 0.5s ease-in-out;
   overflow: hidden;
@@ -119,6 +120,7 @@ sup {
 }
 
 .opis2 {
+  margin-top: 30px;
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -130,6 +132,7 @@ sup {
   font-family: "Sora", serif;
   font-size: 16px;
   font-weight: 600;
+  margin-bottom: 5px;
 }
 
 .contact {
@@ -142,19 +145,24 @@ sup {
 .about {
   display: flex;
   justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+  gap: 50px;
 }
 
 .aboutId {
-  width: 35%;
+  width: 25%;
   text-align: left;
-  font-size: 36px;
+  font-size: 38px;
   font-family: "Sora", serif;
   font-weight: 400;
   line-height: 3rem;
+  padding-right: 5px;
 }
 
 .aboutText {
-  width: 60%;
+  width: 70%;
   font-size: 18px;
   font-family: "Sora", serif;
   color: #606060;
@@ -170,19 +178,19 @@ sup {
 .jedan {
   background-color: red;
   height: 2px;
-  width: 33%;
+  width: 35%;
 }
 
 .dva {
   background-color: #d8d6d6;
   height: 2px;
-  width: 67%;
+  width: 65%;
 }
 
 /************************* EXPERIENCE *****************************/
 .tag {
   font-size: 18px;
-  margin-bottom: 10px;
+  margin: 10px 0;
   line-height: 10px;
 }
 
@@ -195,15 +203,18 @@ sup {
 
 /************************ Featured Projects na glavnoj stranici ************************/
 .project {
+  text-align: center;
+}
+
+.projectList {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  justify-content: center;
-  gap: 10px;
 }
 
 .projectA {
   width: 31%;
+  background-color: white;
   align-items: center;
   text-align: center;
   line-height: normal;
@@ -260,12 +271,6 @@ sup {
 .project p {
   font-family: "Sora", serif;
   font-size: 15px;
-}
-
-.projectLink {
-  justify-content: center;
-  align-items: center;
-  text-align: center;
 }
 
 /************************ Featured Projects stranica odvojena ************************/
@@ -397,6 +402,7 @@ sup {
   /************* ABOUT ***************/
   .aboutId {
     font-size: 24px;
+    text-align: center;
   }
   .aboutId p {
     line-height: normal;
@@ -420,7 +426,7 @@ sup {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 70%;
+    width: 85%;
   }
   .projectA {
     width: 90%;
@@ -433,10 +439,7 @@ sup {
   }
 }
 /************************** R E S P O N S I V E - 601 TO 900px  **************************/
-@media (min-width: 601px) and (max-width: 900px) {
-  .container {
-    width: 95%;
-  }
+@media (min-width: 601px) and (max-width: 991px) {
   .navBar p {
     font-size: 20px;
   }
@@ -453,13 +456,20 @@ sup {
     height: 10vh;
   }
   /************* ABOUT ***************/
+  .about {
+    background-color: black;
+  }
   .aboutId {
+    background-color: yellow;
     font-size: 26px;
+    width: 25%;
   }
   .aboutId p {
     line-height: normal;
   }
   .aboutText {
+    background-color: red;
+    width: 40%;
     font-size: 18px;
   }
   /*************** Expiriance mob *************/
@@ -475,7 +485,7 @@ sup {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 70%;
+    width: 85%;
   }
   .projectA {
     width: 90%;
