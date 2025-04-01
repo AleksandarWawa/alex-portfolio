@@ -274,7 +274,7 @@
 
 .sajtUl {
   display: block;
-  line-height: 2px;
+  line-height: 25px;
   font-weight: 600;
 }
 
@@ -467,12 +467,12 @@
   padding-top: 6px;
 }
 
-.right-side .button {
+.right-side .button button {
   display: inline-block;
   margin-top: 12px;
 }
 
-.right-side .button input[type="button"] {
+.right-side .button button {
   color: #fff;
   font-size: 18px;
   font-family: var(--sora-font);
@@ -485,7 +485,7 @@
   transition: all 0.3s ease;
 }
 
-.button input[type="button"]:hover {
+.button button:hover {
   background: #5029bc;
 }
 
