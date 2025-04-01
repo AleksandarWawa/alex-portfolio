@@ -356,6 +356,7 @@
   padding: 20px 60px 30px 40px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   margin-bottom: 3vh;
+  display: flex;
   justify-content: center;
 }
 
@@ -402,12 +403,14 @@
 
 .content .left-side .details .topic {
   font-size: 18px;
+  font-family: var(--sora-font);
   font-weight: 500;
 }
 
 .content .left-side .details .text-one,
 .content .left-side .details .text-two {
   font-size: 14px;
+  font-family: var(--sora-font);
   color: #afafb6;
 }
 
@@ -418,8 +421,14 @@
 
 .content .right-side .topic-text {
   font-size: 23px;
+  font-family: var(--sora-font);
   font-weight: 600;
   color: #3e2093;
+}
+
+.content .right-side p {
+  font-family: var(--sora-font);
+  font-size: 16px;
 }
 
 .right-side .input-box {
@@ -435,6 +444,7 @@
   border: none;
   outline: none;
   font-size: 16px;
+  font-family: var(--sora-font);
   background: #F0F1F8;
   border-radius: 6px;
   padding: 0 15px;
@@ -447,6 +457,7 @@
   border: none;
   outline: none;
   font-size: 16px;
+  font-family: var(--sora-font);
   background: #F0F1F8;
   border-radius: 6px;
   resize: none;
@@ -464,6 +475,7 @@
 .right-side .button input[type="button"] {
   color: #fff;
   font-size: 18px;
+  font-family: var(--sora-font);
   outline: none;
   border: none;
   padding: 8px 16px;
@@ -480,18 +492,42 @@
 .poruka {
   margin: auto;
   width: 80%;
+  font-family: var(--sora-font);
+  font-size: 16px;
   background: #fff;
   border-radius: 6px;
   padding: 20px 60px 30px 40px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-  margin-bottom: 10vh;
+  margin-bottom: 3vh;
   display: flex;
   justify-content: center;
 }
 
 
+.dugmeMainPage {
+  display: flex;
+ justify-content: center;
+ margin-bottom: 3vh;
+}
 
+.dugmeMainPage a{
+  text-decoration: none;
+  display: inline-block;
+  font-family: var(--sora-font);
+  font-size: 16px;
+  padding: 8px 16px;
+  border-radius: 6px;
+}
 
+.dugmeMainPage a:hover{
+  background-color: #afaeae;
+  color: black;
+}
+
+.previous {
+  background-color: #ececec;
+  color: black;
+}
 
 @media (max-width: 950px) {
   .contact {
@@ -503,6 +539,9 @@
   .contact .content .right-side {
     width: 75%;
     margin-left: 55px;
+  }
+  .poruka{
+    margin-top: 3vh;
   }
 }
 
